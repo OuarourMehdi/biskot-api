@@ -1,5 +1,5 @@
-# Biskop 
-Biskop API is micro service responsible for managing the cart of an e-commerce website.
+# Biskot
+Biskot API is micro service responsible for managing the cart of an e-commerce website.
 
 Before attempting to crunch the code, we strongly recommend you to carefully read each of the sections below:
 
@@ -28,7 +28,7 @@ To give you an idea of what is the expected result from each endpoint looks like
 >      "line_price": 2.00
 >    }
 >  ],
->  "totalPrice": 0
+>  "totalPrice": 6.00
 >}
 >>```
 
@@ -41,23 +41,6 @@ To give you an idea of what is the expected result from each endpoint looks like
 >  }
 >```
 > response http code: 200
->
-> response body:
->```json
->{
->  "id": 1,
->  "products": [
->    {
->      "id": 1,
->      "label": "Déodorant Spray 200ml Ice Dive ADIDAS",
->      "quantity": 3,
->      "unit_price": 2.00,
->      "line_price": 6.00
->    }
->  ],
->  "totalPrice": 0
->}
->>```
 
 ## Cart business rules
 
